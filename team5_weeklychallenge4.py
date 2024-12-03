@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1hdMTFcKsZZDKdnHrQdRRYqvizI2kRFw8
 """
 
-pip install dash dash-bootstrap-components pandas plotly
 
-!pip install pyngrok
+
+
 
 import dash
 from dash import dcc, html, Input, Output
