@@ -7,7 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1hdMTFcKsZZDKdnHrQdRRYqvizI2kRFw8
 """
 
+import subprocess
+import sys
 
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Install required packages
+packages = ['dash', 'dash-bootstrap-components', 'plotly']
+for package in packages:
+    install(package)
 
 
 
