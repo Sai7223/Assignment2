@@ -149,7 +149,7 @@ plt.xticks(rotation=45)
 plt.grid(axis='y')
 plt.show()
 
-!pip install streamlit
+
 
 import streamlit as st
 import pandas as pd
